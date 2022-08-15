@@ -127,3 +127,7 @@ let numArray = getArray<number>([1, 2, 3, 4])
 let strArray = getArray<string>(['brad', 'John', 'Jill'])
 
 strArray.push('mike') // Throws error
+
+function SubNum(x: number, y: number): number {
+  return x - y
+}
