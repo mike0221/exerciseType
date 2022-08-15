@@ -128,6 +128,7 @@ let strArray = getArray<string>(['brad', 'John', 'Jill'])
 
 strArray.push('mike') // Throws error
 
-function SubNum(x: number, y: number): number {
-  return x - y
+function DevideNum(x: number, y: number): number {
+  return x / y
 }
+strArray.push('ella') // Throws error
